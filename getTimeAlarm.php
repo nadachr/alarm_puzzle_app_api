@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 
 		
-require_once '../config/db_connect.php';
+require_once 'config/db_connect.php';
 $headers = apache_request_headers();
 
 $sql = "SELECT * FROM tbl_time WHERE time_id = '1'";
